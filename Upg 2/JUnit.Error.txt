@@ -1,0 +1,11 @@
+Stora problem med att få JUnit att fungera (Arch Linux). 
+Problem: Javas egna, olika CLASSPATH variabler, FAQen (JUnits) något missvisande. 
+LÖSNING: Köra JUnit i Eclipse, inte följa FAQen till punkt och pricka. (Ej exportera CLASSPATH vilket även kan skapa problem med bash) 
+
+---------------------------------------------
+FEL vid test med JUnit (MyArrayList):
+
+OutOfbounds & Nullpointer  FIXAT: mha if-satser
+
+Error på iterator o to array, expected Null array	FIXAT: mha enkel if-sats, om count==0 return null;
+---------------------------------------------
